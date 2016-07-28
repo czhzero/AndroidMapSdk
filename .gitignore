@@ -1,0 +1,15 @@
+# general
+*~
+*.swp
+.DS_Store
+
+# java
+*.class
+
+# android
+.idea
+*.iml
+build
+local.properties
+.gradle
+

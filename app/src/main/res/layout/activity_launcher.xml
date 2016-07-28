@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位" />
+
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poi搜索" />
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poi附近搜索" />
+
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地理解析" />
+
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反地理解析" />
+
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基本地图" />
+
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制线条" />
+
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制圆形" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制图标" />
+
+
+    <Button
+        android:id="@+id/btn_10"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="线路规划" />
+
+
+</LinearLayout>
