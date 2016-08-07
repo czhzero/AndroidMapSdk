@@ -25,23 +25,3 @@ dependencies {
     compile files('libs/AMap2DMap_2.9.0_AMapSearch_3.3.0_AMapLocation_2.6.0_20160628.jar')
 }
 
-ext {
-
-
-    GROUP = 'com.gezbox.map'
-    VERSION_NAME = "1.0.0"
-    POM_PACKAGING = "pom"
-    POM_DESCRIPTION= "Gezbox Map"
-
-    POM_URL="http://github.com/square/leakcanary/"
-    POM_SCM_URL="http://github.com/square/leakcanary/"
-    POM_SCM_CONNECTION="scm:git:https://github.com/square/leakcanary.git"
-    POM_SCM_DEV_CONNECTION="scm:git:git@github.com:square/leakcanary.git"
-
-    POM_LICENCE_NAME="The Apache Software License, Version 2.0"
-    POM_LICENCE_URL="http://www.apache.org/licenses/LICENSE-2.0.txt"
-    POM_LICENCE_DIST="repo"
-
-    POM_DEVELOPER_ID="square"
-    POM_DEVELOPER_NAME="Square, Inc."
-}

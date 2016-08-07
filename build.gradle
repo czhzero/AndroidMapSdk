@@ -21,3 +21,22 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    GROUP = 'com.gezbox.map'
+    VERSION_NAME = "1.0.0"
+    POM_PACKAGING = "pom"
+    POM_DESCRIPTION= "Gezbox Map"
+
+    POM_URL="https://github.com/czhzero/AndroidMapSdk"
+    POM_SCM_URL="https://github.com/czhzero/AndroidMapSdk"
+    POM_SCM_CONNECTION="scm:git:https://github.com/czhzero/AndroidMapSdk.git"
+    POM_SCM_DEV_CONNECTION="scm:git:git@github.com:czhzero/AndroidMapSdk.git"
+
+    POM_LICENCE_NAME="The Apache Software License, Version 2.0"
+    POM_LICENCE_URL="http://www.apache.org/licenses/LICENSE-2.0.txt"
+    POM_LICENCE_DIST="repo"
+
+    POM_DEVELOPER_ID="gezbox"
+    POM_DEVELOPER_NAME="Gezbox, Inc."
+}
